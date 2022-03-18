@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL="https://amapj.fr/dist/amapj-dist-V034.zip"
+SOURCE_SUM="e14f2640d26953057f2efad9b62cb42df220f3c06730cbe4efebf80cf95e7abb"
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
 SOURCE_EXTRACT=true
