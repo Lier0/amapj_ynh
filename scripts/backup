@@ -15,8 +15,8 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 ynh_clean_setup () {
-	### Remove this function if there's nothing to clean before calling the remove script.
-	true
+  ### Remove this function if there's nothing to clean before calling the remove script.
+  true
 }
 # Exit if an error occurs during the execution of the script
 ynh_abort_if_errors
@@ -61,12 +61,6 @@ ynh_backup --src_path="$datadir" --is_big
 #=================================================
 
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
-
-#=================================================
-# BACKUP THE PHP-FPM CONFIGURATION
-#=================================================
-
-ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
 
 #=================================================
 # BACKUP FAIL2BAN CONFIGURATION
